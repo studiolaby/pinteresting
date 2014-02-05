@@ -1,7 +1,15 @@
-$body-bg:   #95a5a6;
-$navbar-inverse-bg: #bdc3c7;
-$navbar-inverse-link-color: black;
-$brand-primary: #2c3e50;
-$jumbotron-bg: #ecf0f1;
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates);
+
+$body-bg:                   #95a5a6;
+$font-family-sans-serif:     'Montserrat Alternates', sans-serif;
+$navbar-inverse-bg:         #bdc3c7;
+$navbar-inverse-link-color:   black;
+$brand-primary:             #2c3e50;
+$jumbotron-bg:              #ecf0f1;
+
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
